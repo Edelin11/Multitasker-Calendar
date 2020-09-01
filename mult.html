@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" >
+    <title>Multitasker</title>
+</head>
+<body>
+    <h1 id="header">Today's Multitasker</h1>
+    <hr id="linea">
+
+    <div id="backgroundB"> 
+    <button id="background__boton2">
+        <P id="colores_names"></P>
+    </button>
+    </div>
+    
+   <div id="hour"></div>
+    <br/>
+
+    <h2 class="title">Calendar</h2>  
+    <div class="calendar"> 
+        <div class="calendar-box">
+            <div class="calendar-prev" id="prev-month"><i class="fas fa-arrow-circle-left"></i></div>
+            <div class="calendar-month" id="month"></div>
+            <div class="calendar-year" id="year"></div>
+            <div class="calendar-next" id="next-month"><i class="fas fa-arrow-circle-right"></i></div>
+        </div>
+            
+        <div class="calendar-weekDays">
+            <div class="calendar-day calendar-item">Mon</div>
+            <div class="calendar-day calendar-item">Tue</div>
+            <div class="calendar-day calendar-item">Wed</div>
+            <div class="calendar-day calendar-item">Thu</div>
+            <div class="calendar-day calendar-item">Fri</div>
+            <div class="calendar-day calendar-item">Sat</div>
+            <div class="calendar-day calendar-item">Sun</div>
+            <div id="C_dia"></div>
+        </div>
+        <div class="calendar-dates" id="dates"></div>
+    </div> 
+    <div id="div_notes">
+        <h3 id="Notes">Notes</h3>
+        <textarea name="texto" id="area_texto" maxlength="200">Enter notes...</textarea> 
+    </div>
+        
+    <div class="todo-container1"> 
+        <p id="p">To Do List:</p> 
+        <hr id="line2">
+            <input type="text" class="todo-input">
+            <button class="todo-button" type="submit">
+                <i class="fas fa-plus-circle" id="icon1"></i>
+            </button>
+    </div>
+    <div class="todo-container2">
+        <ul class="todo-list">
+        </ul>    
+    </div>
+    
+
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
