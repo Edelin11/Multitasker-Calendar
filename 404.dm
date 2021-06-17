@@ -1,3 +1,0 @@
----
-permalink: /mult.html
----
